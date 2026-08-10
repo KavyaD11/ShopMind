@@ -1,11 +1,11 @@
-# 🛍️ ShopMind — AI Shopping Assistant
+# ShopMind — AI Shopping Assistant
 
 A full-stack conversational recommendation engine for personalized e-commerce.
 Built with Flask (Python) + React.js + TF-IDF cosine similarity.
 
 ---
 
-## 📁 Folder Structure
+## Folder Structure
 
 ```
 ShopMind/
@@ -34,7 +34,7 @@ ShopMind/
 
 ---
 
-## 🚀 Setup Instructions
+## Setup Instructions
 
 ### Step 1 — Open in VS Code
 ```
@@ -62,7 +62,7 @@ Frontend opens at: **http://localhost:3000**
 
 ---
 
-## 💬 Demo Queries to Try
+## Demo Queries to Try
 
 1. `"I want a stylish college bag under 1500"`
 2. `"Wireless headphones for gym under 2000"`
@@ -72,7 +72,7 @@ Frontend opens at: **http://localhost:3000**
 
 ---
 
-## 📦 Using Your Own Amazon Dataset
+## Using Your Own Amazon Dataset
 
 Replace `backend/products.csv` with your dataset.
 Required columns:
@@ -88,7 +88,7 @@ Required columns:
 
 ---
 
-## 🧠 How It Works
+## How It Works
 
 1. **NLP Pipeline** — Detects intent (search / confused / like / greeting) and extracts entities (product type, usage, style, budget, attributes) using regex + NLTK
 
@@ -100,7 +100,7 @@ Required columns:
 
 ---
 
-## 🏗️ Tech Stack
+## Tech Stack
 
 | Layer | Technology |
 |-------|-----------|
@@ -112,4 +112,4 @@ Required columns:
 
 ---
 
-Built for the ShopMind AI Shopping Assistant project 🚀
+Built for the ShopMind AI Shopping Assistant project 
